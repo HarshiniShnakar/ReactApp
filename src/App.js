@@ -1,16 +1,10 @@
-
-
-// import Uncontrolledform from "./uncontrol";
-
-// import EligiblityCheck from "./eligiblityy";
-import NameValidation from "./task";
-
+import Clock  from "./digital";
 function App() {
   return (
     <div className="App">
-      <NameValidation/>
+      <Clock  />
     </div>
   );
 }
 
-export default App;
+export default Clock  ;

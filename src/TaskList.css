@@ -1,0 +1,47 @@
+.task-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.done {
+  color: green;
+}
+
+.not-done {
+  color: red;
+}
+
+.toggle-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
